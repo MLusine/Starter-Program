@@ -1,0 +1,114 @@
+.main {
+  margin-top: 8.8rem;
+}
+.about {
+  width: 192rem;
+  height: 69.5rem;
+  background-color: $background-white;
+  display: flex;
+
+  &__container {
+    display: flex;
+    width: 146.1rem;
+    height: 42.3rem;
+    margin: auto;
+    position: relative;
+
+    &__program {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.6rem;
+      margin: auto;
+      margin-left: 0;
+
+      &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.4rem;
+
+        & p {
+          color: $color-primary;
+          font-weight: 700;
+        }
+
+        & h2 {
+          width: 60.3rem;
+          color: $text-color-default;
+          font-weight: 700;
+        }
+      }
+
+      &__text {
+        display: flex;
+        width: 480px;
+        flex-direction: column;
+        color: $text-color-secondary;
+      }
+    }
+
+    &__photo {
+      width: 65.2rem;
+      height: 42.3rem;
+      border-radius: 4rem;
+      margin-right: 12rem;
+    }
+    &__details {
+      width: 23.9rem;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 122rem;
+      z-index: 99;
+
+      &__box {
+        display: flex;
+        padding: 2.4rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.2rem;
+        align-self: stretch;
+        border-radius: 1.2rem 1.2rem 0rem 0rem;
+        background: $background-white;
+        box-shadow: 0rem 0.8rem 3rem 0rem rgba(31, 33, 85, 0.07);
+
+        &__units {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+
+          & img {
+            width: 3.2rem;
+            height: 3.2rem;
+          }
+        }
+      }
+
+      &__application {
+        display: flex;
+        padding: 1.2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        align-self: stretch;
+        border-radius: 0rem 0rem 1.2rem 1.2rem;
+        background: #0e0c22;
+        box-shadow: 0rem 0.8rem 3rem 0rem rgba(31, 33, 85, 0.07);
+
+        & p {
+          color: $color-white;
+          &:first-child {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

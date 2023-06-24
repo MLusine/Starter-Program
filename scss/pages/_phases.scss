@@ -1,0 +1,135 @@
+.phases {
+  display: flex;
+  width: 192rem;
+  height: 92.5rem;
+  background: $background-dark;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    width: 140rem;
+    height: 70rem;
+    margin: auto;
+
+    &__intro {
+      display: flex;
+      width: 60.3rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 3.2rem;
+
+      &__title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.6rem;
+        align-self: stretch;
+
+        & p {
+          display: flex;
+          width: 10.2rem;
+          flex-direction: column;
+          color: $color-primary-lighter;
+          text-align: center;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 20px;
+        }
+
+        & h2 {
+          display: flex;
+          width: 620px;
+          flex-direction: column;
+          color: $color-white;
+          font-weight: 700;
+        }
+      }
+
+      &__catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.2rem;
+        align-self: stretch;
+
+        &__line {
+          width: 60.3rem;
+          height: 0.1rem;
+          background: $background-dark-gray;
+        }
+
+        &__lists {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 3.2rem;
+          align-self: stretch;
+
+          &__partone {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.6rem;
+            align-self: stretch;
+
+            &__title {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              align-self: stretch;
+
+              & h5 {
+                display: flex;
+                width: 46rem;
+                flex-direction: column;
+                color: $color-white;
+                font-weight: 700;
+              }
+
+              & img {
+                width: 2.4rem;
+                height: 2.4rem;
+              }
+            }
+
+            & ul {
+              display: flex;
+              width: 58.3rem;
+              flex-direction: column;
+              justify-content: center;
+              color: $color-white;
+            }
+          }
+        }
+
+        &__lang {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          align-self: stretch;
+
+          & h5 {
+            color: $color-white;
+            font-weight: 700;
+          }
+
+          & img {
+            width: 2.4rem;
+            height: 2.4rem;
+            padding: 0.2rem;
+          }
+        }
+      }
+    }
+
+    &__photosgroup {
+      width: 67.7rem;
+      height: 70rem;
+
+      & img {
+        width: 67.6rem;
+        height: 70rem;
+      }
+    }
+  }
+}
