@@ -63,8 +63,8 @@ html {
   height: 8.8rem;
   background-color: #fefefe;
   padding: 1.2rem 8rem;
-  box-shadow: 0rem 0.4rem 0.7rem 0rem rgba(64, 66, 117, 0.03);
-  position: fixed;
+  box-shadow: 0 0.4rem 0.7rem 0 rgba(64, 66, 117, 0.03);
+  position: sticky;
   top: 0;
 }
 .header__container {
@@ -244,10 +244,6 @@ html {
 }
 .footer__simply__box p {
   color: #5a5a62;
-}
-
-.main {
-  margin-top: 8.8rem;
 }
 
 .about {
